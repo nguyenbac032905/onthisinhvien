@@ -1,0 +1,78 @@
+.myCourses{
+    background-color: rgb(242, 246, 252);
+    padding: 50px 0;
+    .container{
+        background-color: #fafafa;
+        border-radius: 7px;
+    }
+    &__header{
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        padding: 15px;
+        span{
+            font-size: 22px;
+            margin-right: 5px;
+        }
+        h2{
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    &__body{
+        padding: 15px 25px;
+        background-color: white;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a{
+        margin-right: 15px;
+        width: calc(100%/4 - 45px/4);
+        background-color: #fafafa;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        overflow: hidden;
+        color: #000000DE;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        &:nth-child(4n){
+            margin-right: 0;
+        }
+    }
+    &__item{
+        &--image{
+            width: 100%;
+            margin-right: 10px;
+            img{
+                width: 100%;
+                aspect-ratio: 16/9;
+                object-fit: cover;
+            }
+        }
+        &--content{
+            padding: 10px;
+            color: #444444;
+            h2{
+                margin: 0;
+                font-weight: 700;
+                font-size: 18px;
+                text-transform: uppercase;
+                margin: 15px 0;
+            }
+            p{
+                margin: 0;
+                font-size: 17px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+       @media (max-width:767.98px) {
+        a{
+            width: calc(50% - 15px/2);
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+        }
+    }
+}

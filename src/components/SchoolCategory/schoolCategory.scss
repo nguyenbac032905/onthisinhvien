@@ -1,0 +1,157 @@
+.category{
+    background-image: url(https://storage.googleapis.com/onthisinhvien.appspot.com/images/otsvv/background-school.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    &__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        h2{
+            color: #1c3967;
+            font-size: 35px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        p{
+            color: #4b4b4b;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            &:focus{
+                outline: none;
+            }
+            &::placeholder{
+                font-size: 16px;
+            }
+        }
+        span{
+            position: absolute;
+            right: 20px;
+            font-size: 20px;
+            color: #ccc;
+        }
+    }
+    &__formSearch{
+        width: 50%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 2px 8px 0 rgba(99,99,99,.2);
+        padding: 15px 15px 15px 40px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__box{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: calc(25% - 35px);
+        border-radius: 12px;
+        transition: 0.5s;
+        p,span,h2{
+            transition: 0.5s;
+        }
+        &:nth-child(4n){
+            margin-right: 0;
+        }
+         &-top{
+            display: flex;
+            align-items: center;
+         }
+         &-image{
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+         }
+         &-title{
+            flex: 1;
+            p{
+                color: #ccccccda;
+                font-weight: 500;
+                margin:0;
+                font-size: 16px;
+            }
+            h2{
+                color: black;
+                margin: 0;
+                font-size: 15px;
+                min-height: 40px;
+                font-weight: 700;
+            }
+         }
+         &-bottom{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+         }
+         &-number{
+            color: #94a6c0;
+            display: flex;
+            align-items: center;
+            span{
+                margin-right: 10px;
+                font-size: 16px;
+            }
+            p{
+                margin: 0;
+                font-size: 13px;
+                letter-spacing: 0.4px;
+            }
+
+         }
+         &-button{
+            button{
+                border: 1px solid #c3d1e4;
+                padding: 10px 20px;
+                background-color: white;
+                border-radius: 45px;
+                color: #94a6c0;
+                font-style: italic;
+                cursor: pointer;
+                font-size: 14px;
+            }
+         }
+         &:hover{
+            transform: translateY(-10px);
+            background-color: var(--color-1);
+            color: white;
+            p,span,h2{
+                color: white;
+            }
+         }
+    }
+    @media (max-width:991.98px) {
+        &__box{
+            width: calc(50% - 35px);
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+        }
+    }
+    @media (max-width:575.98px) {
+        &__box{
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}

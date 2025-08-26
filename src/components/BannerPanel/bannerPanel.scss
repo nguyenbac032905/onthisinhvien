@@ -1,0 +1,52 @@
+.banner {
+    margin-bottom: 50px;
+
+    &__slide {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__box {
+        a {
+            overflow: hidden;
+            aspect-ratio: 3.5;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+
+    //nut chuyen slide
+    .slick-dots {
+        position: absolute;
+        bottom: -30px !important;
+
+        li {
+            display: block;
+            width: 15px !important;
+            height: 15px !important;
+            border-radius: 50% !important;
+            background-color: #ccc;
+            overflow: hidden;
+
+            button {
+                width: 100% !important;
+                height: 100% !important;
+            }
+
+            &::after {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+
+        .slick-active::after {
+            background-color: var(--color-1) !important;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.answer{
+    background-color: rgb(242, 246, 252);
+    padding: 50px 0;
+    .container{
+        background-color: #fafafa;
+        border-radius: 7px;
+    }
+    &__header{
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        padding: 15px;
+        span{
+            font-size: 22px;
+            margin-right: 5px;
+        }
+        h2{
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    &__body{
+        padding: 15px 25px;
+        background-color: white;
+        height: 290px;
+        overflow: auto;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a{
+        margin-right: 10px;
+        width: calc(50% - 10px/2);
+        background-color: #fafafa;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        color: #000000DE;
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+    }
+    &__item{
+        display: flex;
+        padding: 20px 10px;
+        align-items: center;
+        &--icon{
+            font-size: 22px;
+            margin-right: 10px;
+        }
+        &--content{
+            h2{
+                margin: 0;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            p{
+                margin: 0;
+                font-size: 18px;
+            }
+        }
+    }
+}

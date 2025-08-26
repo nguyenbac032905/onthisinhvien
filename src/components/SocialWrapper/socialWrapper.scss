@@ -1,0 +1,118 @@
+.social {
+    background-image: url(https://storage.googleapis.com/onthisinhvien.appspot.com/images/otsvv/social.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+    &__title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+        h2 {
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            text-decoration: underline;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 0;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__box {
+        width: 30%;
+        border-radius: 15px;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(254, 254, 255, .9) 17.71%, rgba(254, 254, 255, .9) 42.71%, rgba(254, 254, 255, .738) 72.92%, rgba(254, 254, 255, .585) 100%);
+
+        &-image {
+            margin-bottom: 20px;
+            img {
+                height: 60px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-icon {
+            display: flex;
+            align-items: center;
+            margin-bottom:25px;
+            span {
+                margin-right: 10px;
+                font-size: 25px;
+                color: var(--color-1);
+            }
+
+            p {
+                font-size: 25px;
+                color: var(--color-1);
+                font-weight: 700;
+                margin: 0;
+            }
+        }
+
+        &-button {
+            margin-bottom: 15px;
+            position: relative;
+            height: 55px;
+            max-width: 250px;
+            width: 100%;
+            :hover{
+                transform: translateY(-10px);
+                transition: 0.25s;
+            }
+            a {
+                background: linear-gradient(180deg, #ed1e24, #ff4045);
+                display: block;
+                text-align: center;
+                padding: 10px 15px;
+                border-radius: 15px;
+                color: white;
+                font-weight: 700;
+                font-size: 20px;
+                box-shadow: #bd0409 0px 10px 15px;
+            }
+        }
+    }
+    @media (max-width:767.98px) {
+        height: 100vh;
+        &__title{
+            margin-bottom: 10px;
+            h2{
+                font-size: 20px;
+                text-align: center;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        &__box{
+            margin-bottom: 10px;
+            width: 60%;
+            height: 160px;
+        }
+    }
+}

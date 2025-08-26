@@ -1,0 +1,148 @@
+.defaultLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    //header
+    &__header {
+        @media (max-width:991.98px) {
+            .defaultLayout__nav {
+                display: none;
+            }
+            .defaultLayout__cart{
+                display: none;
+            }
+            .defaultLayout__bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        @media (max-width:575.98px) {
+            .defaultLayout__logo-text{
+                display: none;
+            }
+        }
+
+        padding: 10px;
+        background-color: #d5e2f7;
+        box-shadow: 0 2px 4px 0 rgba(219, 201, 206, .122);
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 999;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        &-image {
+            cursor: pointer;
+            width: 55px;
+            height: 55px;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        &-text {
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: var(--color-2);
+            }
+
+            font-size: 16px;
+            color: var(--color-1);
+            font-weight: 700;
+            margin-left: 20px;
+        }
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__nav {
+        margin-right: 50px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                margin-left: 30px;
+
+                a {
+                    color: black;
+                    font-weight: 700;
+                    font-size: 16px;
+                    transition: all 0.2s ease;
+
+                    &:hover {
+                        color: var(--color-1);
+                    }
+                }
+            }
+        }
+    }
+
+    &__account {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+        button {
+            padding: 8px 10px;
+            border: 1px solid #1c3967;
+            color: black;
+            background-color: #d5e2f7;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #1c3967;
+                color: white;
+                transition: 0.5s ease;
+            }
+        }
+
+        &--login {
+            margin-right: 10px;
+        }
+    }
+
+    &__cart {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    &__bar{
+        margin-right: 20px;
+        font-size: 25px;
+        color: var(--color-1);
+        display: none;
+        cursor: pointer;
+        &:hover {
+            color: var(--color-2);
+            transition: all 0.2s ease;
+        }
+    }
+
+    //endHeader
+    &__main {
+        flex: 1;
+    }
+}

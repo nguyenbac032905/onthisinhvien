@@ -1,0 +1,22 @@
+.cartIcon{
+    position: relative;
+    &__icon{
+        font-size: 25px;
+        color: var(--color-1);
+        cursor: pointer;
+    }
+    &__quantity{
+        position: absolute;
+        background-color: #ff0000;
+        color: white;
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        right: -10px;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,47 @@
+.footer {
+    &__top {
+        background-color: #D8E0EC;
+        padding: 20px;
+    }
+
+    &__content {
+        &-title {
+            color: #556372;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        &-list {
+            ul {
+                list-style-type: none;
+                padding: 0;
+                li{
+                    margin-bottom: 15px;
+                    color: #556372;
+                    font-size: 15px;
+                    iframe{
+                        width: 250px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+    &__address{
+        &-location{
+            color: #556372;
+            display: flex;
+            svg{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    //endTop
+    &__bottom {
+        background-color: #1C3866;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+}

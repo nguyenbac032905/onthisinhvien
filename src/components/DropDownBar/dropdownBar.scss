@@ -1,0 +1,26 @@
+.dropdownBar{
+    &__content{
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 250px;
+        width: 100%;
+    }
+    &__nav{
+        ul{
+            list-style-type:none ;
+            margin: 0;
+            padding: 0;
+            li{
+                margin-bottom: 10px;
+                padding: 5px 0;
+                border-bottom: 1px solid #ccc;
+                a{
+                    color: #1c3967;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,933 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Thị Ánh",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkP9VQydMBRmiW67obqD7",
+      "purchasedCourses": [
+        2,
+        3,
+        1
+      ],
+      "image": "https://cdn-media.sforum.vn/storage/app/media/thanhhuyen/h%C3%ACnh%20n%E1%BB%81n%20b%E1%BA%A7u%20tr%E1%BB%9Di/hinh-nen-bau-troi-thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "fullName": "Tran Van B",
+      "email": "tranvanb@gmail.com",
+      "password": "tranvanb",
+      "token": "xYz8Lp0aQRtGZK24eiWmT",
+      "purchasedCourses": [],
+      "image": ""
+    },
+    {
+      "id": 3,
+      "fullName": "Le Thi C",
+      "email": "lethic@gmail.com",
+      "password": "lethic",
+      "token": "nTm9Df1vUWopEq85hzJqA",
+      "purchasedCourses": [
+        1
+      ],
+      "image": ""
+    },
+    {
+      "id": 4,
+      "fullName": "Pham Van D",
+      "email": "phamvand@gmail.com",
+      "password": "phamvand",
+      "token": "wRt6Xe2kSTyBLr79puMfE",
+      "purchasedCourses": [
+        2
+      ],
+      "image": ""
+    },
+    {
+      "id": 5,
+      "fullName": "Hoang Thi E",
+      "email": "hoangthie@gmail.com",
+      "password": "hoangthie",
+      "token": "aZq3Ks9mOPguVc13lxNjB",
+      "purchasedCourses": [
+        2,
+        3
+      ],
+      "image": ""
+    },
+    {
+      "fullName": "nguyễn văn bắc",
+      "email": "nguyenvanbac@gmail.com",
+      "password": "nguyenvanbac",
+      "token": "CnypaFRCQCSickPqwDTl",
+      "id": 6,
+      "purchasedCourses": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://hoangphucphoto.com/wp-content/uploads/2023/03/anh-bt-thumb.jpg"
+    },
+    {
+      "fullName": "nguyễn văn bắc",
+      "email": "nguyenvanbac032905@gmail.com",
+      "password": "nguyenvanbac032905",
+      "token": "4sOK1kBgNfBSyP7UfusJ",
+      "id": 7
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "schoolId": 1,
+      "name": "hệ thống thông tin",
+      "description": "Tổng hợp các đề trắc nhiệm, tóm tắt lý thuyết,mã môn học: CNTT1152",
+      "price": 10,
+      "image": "https://tuyensinh.hub.edu.vn/hinh_buh/UploadFile//images/dai_hoc_chinh_quy/viec_lam/he_thong_thong_tin_quan_ly.jpg",
+      "duration": "3 tháng"
+    },
+    {
+      "id": 2,
+      "schoolId": 1,
+      "name": "mạng máy tính",
+      "description": "Tổng hợp các đề trắc nhiệm, tóm tắt lý thuyết,mã môn học: CNTT1114",
+      "price": 20,
+      "image": "https://i-vn.joboko.com/oko_ievt/vieclam.uet.vnu.edu.vn/images/upload/tin-tuc-2025/nganh-mang-may-tinh-truyen-thong-du-lieu-1-1744078149.jpg",
+      "duration": "4 tháng"
+    },
+    {
+      "id": 3,
+      "schoolId": 1,
+      "name": "quản trị mạng",
+      "description": "Tổng hợp các đề trắc nhiệm, tóm tắt lý thuyết,mã môn học: CNTT1113",
+      "price": 30,
+      "image": "https://caodangsaigon.edu.vn/wp-content/uploads/2025/03/Quan-tri-mang-may-tinh-1.png",
+      "duration": "3 tháng"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": " Phát biểu nào sau đây đúng về World Wide Web?",
+      "answers": [
+        " World Wide Web là là một trình duyệt Web giúp người dùng truy cập vào Intenet",
+        "World Wide Web là mạng của các mạng, kết nối với nhau qua hệ thống dây cáp",
+        "World Wide Web là một dịch vụ trên mạng Internet, cho phép truy cập thông tin dưới dạng siêu văn bản thông qua môi trường Interne",
+        " World Wide Web là một trang Web trên Internet cho phép người dùng đi tới các trang web khác"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Phần mềm nào trong số sau đây không phải là phần mềm ứng dụng?",
+      "answers": [
+        "Chương trình quản lý tồn kho",
+        "Phần mềm bảng tính",
+        "Phần mềm xử lý văn bản",
+        "Hệ điều hành"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Danh sách nào sau đây chứa tên thiết bị không phải là thiết bị nhớ ngoài của máy tính điện tử?",
+      "answers": [
+        "Floppy Disk, Hard Disk, USB, Flash",
+        "USB Flash, CD-ROM, Keyboard",
+        "Floppy Disk, Hard Disk, CD-ROM",
+        "Hard Disk, CD-ROM, USB, Flash"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Ta nói rằng có mối quan hệ ........ giữa hai thực thể hay hai bảng A, B nếu mỗi dòng trong A chỉ tương ứng (có liên quan) với một dòng trong B và ngược lại mỗi dòng trong B chỉ tương ứng với một dòng trong A.",
+      "answers": [
+        "Một – Nhiều",
+        "Một – Một",
+        "Một – không",
+        "Nhiều – Nhiều"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Trong máy tính, ROM là viết tắt của cụm từ nào?",
+      "answers": [
+        "Random Only Memory",
+        "Read Only Memory",
+        "Read Or Modify",
+        "Read Of Memory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Hãy kể tên các dịch vụ kết nối Internet?",
+      "answers": [
+        "FTTH",
+        "Tất cả các phương án còn lại đều đúng",
+        "Dial-up",
+        "ADSL"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Máy tính cá nhân ra đời ở thế hệ nào của máy tính điện tử?",
+      "answers": [
+        "Thế hệ thứ hai",
+        "Thế hệ thứ tư",
+        "Thế hệ thứ ba",
+        "Thế hệ thứ nhất"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Nguồn tài nguyên nào sau đây chỉ có thể là nguồn tài nguyên cục bộ của máy tính mà không thể thành nguồn tài nguyên mạng.",
+      "answers": [
+        "Ổ đĩa cứng",
+        "Dữ liệu",
+        "Bàn phím",
+        "Phần mềm ứng dụng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Phần mềm có tốc độ thay đổi nhanh hơn phần cứng máy tính?",
+      "answers": [
+        "Sai",
+        "Ðúng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Mỗi CSDL quan hệ là một tập hợp các:",
+      "answers": [
+        "Khóa (key)",
+        "Bản ghi (record)",
+        "Bảng (table)",
+        "Trường (field)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "question": "Trong lĩnh vực mạng máy tính và mạng Internet, HTTPS là gì?",
+      "answers": [
+        "Giao thức truyền siêu văn bản an toàn",
+        "Giao thức có khả năng định tuyến",
+        "Giao thức trao đổi tệp dữ liệu",
+        "Giao thức truyền siêu văn bản"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "question": "Phần mềm nhóm công tác là phần mềm",
+      "answers": [
+        "Phần mềm chatting",
+        "Mạng xã hội",
+        "Chia sẻ tài nguyên",
+        "Tất cả các phương án còn lại"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "question": "Ðâu không phải là đặc điểm của Tín hiệu số",
+      "answers": [
+        "Biểu diễn bằng chữ số 0/1",
+        "Bị suy giảm nếu gặp vật cản trên đường truyền",
+        "Ðược dùng để truyền dữ liệu trong mạng nội bộ",
+        "Biểu diễn bằng các đại lượng biến thiên rời rạc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "question": "Thành phần nào của máy tính có thể không cho máy tính khởi động, nếu nó bị hư hỏng hoặc kết nối không đúng cách?",
+      "answers": [
+        "Bàn phím",
+        "Ổ đĩa",
+        "Chuột",
+        "Máy in"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "question": ".... là tập hợp một hoặc nhiều bảng có liên quan với nhau được tổ chức và lưu trữ trên các thiết bị tin học, chịu sự quản lý của một hệ thống chương trình máy tính",
+      "answers": [
+        "Ngân hàng dữ liệu",
+        "Bản ghi",
+        "Thực thể",
+        "Cơ sở dữ liệu"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "question": "Mạng WAN là viết tắt của cụm từ nào sau đây?",
+      "answers": [
+        "Wide Area Network",
+        "Winde Are Networks",
+        "Wide Are Network",
+        "Winde Area Network"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "question": "Lợi ích của email so với thư thông thường?",
+      "answers": [
+        "Dễ quản lý và tìm kiếm thư gửi và nhận",
+        "Không tốn công vận chuyển, lưu trữ",
+        "Tốc độ gửi, nhận thư nhanh",
+        "Tất cả các phương án còn lại đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "question": "Thành phần nào sau đây của HTTT là yếu tố phi công nghệ?",
+      "answers": [
+        "Phần cứng",
+        "Thủ tục",
+        "Phần mềm",
+        "Dữ liệu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "question": "Các yếu tố cần đánh giá khi mua sắm phần cứng không bao gồm?",
+      "answers": [
+        "Công nghệ",
+        "Khả năng hỗ trợ",
+        "Tốc độ",
+        "Khả năng bảo mật"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "question": "________ có chức năng như một bản hướng dẫn đối với phần cứng trong một HTTT",
+      "answers": [
+        "Cơ sở dữ liệu",
+        "Phần mềm",
+        "Thủ tục",
+        "Chính sách"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "topicId": 2,
+      "question": "Thuật ngữ Internet xuất hiện đầu tiên vào năm nào?",
+      "answers": [
+        "1972",
+        "1976",
+        "1974",
+        "1978"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "topicId": 2,
+      "question": "Một tổ chức A có thể sử dụng cơ sở hạ tầng mạng nào để cung cấp quyền truy cập bảo mật an toàn cho những cá nhân làm việc cho một tổ chức khác nhưng yêu cầu quyền truy cập vào dữ liệu của tổ chức A?",
+      "answers": [
+        "Mạng WAN",
+        "Extranet",
+        "Mạng LAN",
+        "Intranet"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "topicId": 2,
+      "question": "Cơ sở hạ tầng nào cung cấp quyền truy cập vào các mạng khác trên một khu vực địa lý rộng lớn, thường được sở hữu và quản lý bởi nhà cung cấp dịch vụ viễn thông?",
+      "answers": [
+        "Mạng LAN",
+        "Mạng WAN",
+        "Extranet",
+        "Intranent"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "topicId": 2,
+      "question": "Chọn đáp án đúng nhất về phương tiện truyền dẫn?",
+      "answers": [
+        "Cáp đôi xoắn",
+        "Tất cả các phương án",
+        "Cáp đồng trục",
+        "Cáp quang"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "topicId": 2,
+      "question": "Đâu là hình trạng mạng dạng kết nối điểm – đa – điểm (quảng bá)?",
+      "answers": [
+        "Star và Mesh",
+        "Bus và Mesh",
+        "Star và Ring",
+        "Bus và Ring"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "topicId": 3,
+      "question": "Switch hoạt động ở tầng nào trong mô hình OSI?",
+      "answers": [
+        "Tầng 1",
+        "Tầng 2",
+        "Tầng 3",
+        "Tầng 4"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "topicId": 3,
+      "question": "Lệnh nào để xem bảng MAC Address trên switch Cisco?",
+      "answers": [
+        "show running-config",
+        "show mac-address-table",
+        "show ip route",
+        "show vlan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "topicId": 3,
+      "question": "Router hoạt động chủ yếu ở tầng nào của mô hình OSI?",
+      "answers": [
+        "Tầng 2",
+        "Tầng 3",
+        "Tầng 4",
+        "Tầng 5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "topicId": 3,
+      "question": "Câu lệnh nào dùng để lưu cấu hình hiện tại vào bộ nhớ khởi động trên switch/router?",
+      "answers": [
+        "copy running-config startup-config",
+        "save config",
+        "write memory",
+        "config save"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "topicId": 3,
+      "question": "VLAN dùng để chia mạng như thế nào?",
+      "answers": [
+        "Theo cổng vật lý",
+        "Theo IP",
+        "Theo tên máy tính",
+        "Theo số lượng người dùng"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 1
+        },
+        {
+          "questionId": 27,
+          "answer": 1
+        },
+        {
+          "questionId": 28,
+          "answer": 1
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 0
+        },
+        {
+          "questionId": 23,
+          "answer": 0
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 3
+        },
+        {
+          "questionId": 22,
+          "answer": 3
+        },
+        {
+          "questionId": 23,
+          "answer": 3
+        },
+        {
+          "questionId": 24,
+          "answer": 3
+        },
+        {
+          "questionId": 25,
+          "answer": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 2
+        },
+        {
+          "questionId": 28,
+          "answer": 2
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 30,
+          "answer": 2
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 3
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 3
+        },
+        {
+          "questionId": 12,
+          "answer": 3
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 3
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 1
+        },
+        {
+          "questionId": 27,
+          "answer": 2
+        },
+        {
+          "questionId": 28,
+          "answer": 1
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "ĐẠI HỌC KINH TẾ QUỐC DÂN",
+      "alias": "NEU",
+      "courses": "3",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/169791473-1646299420168-daihockinhtequocdan.png"
+    },
+    {
+      "id": 2,
+      "name": "ĐẠI HỌC XÂY DỰNG",
+      "alias": "HUCE",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/258008389-1646280981033-daihocxaydung.png"
+    },
+    {
+      "id": 3,
+      "name": "ĐẠI HỌC KINH TẾ TP.HCM",
+      "alias": "UEH",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/30498790-1590834420684-logo(1).jpg"
+    },
+    {
+      "id": 4,
+      "name": "ĐẠI HỌC KINH TẾ - LUẬT HCM",
+      "alias": "UEL",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/335050581-1646297997776-daihockinhteluathcm.png"
+    },
+    {
+      "id": 5,
+      "name": "ĐẠI HỌC NGÂN HÀNG TP.HCM",
+      "alias": "HUB",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/53758198-1650331342559-logohub.png"
+    },
+    {
+      "id": 6,
+      "name": "ĐẠI HỌC THƯƠNG MẠI",
+      "alias": "TMU",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/435232271-1647858439448-daihocthuongmai.png"
+    },
+    {
+      "id": 7,
+      "name": "ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+      "alias": "HUST",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/222815085-1646299905098-daihocbachkhoahanoi.png"
+    },
+    {
+      "id": 8,
+      "name": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
+      "alias": "PTIT",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/792400873-1703245556291-ptit.jpg"
+    },
+    {
+      "id": 9,
+      "name": "ĐẠI HỌC TÔN ĐỨC THẮNG",
+      "alias": "TDTU",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/16741081-1649079134281-tdt_logo.png"
+    },
+    {
+      "id": 10,
+      "name": "ĐẠI HỌC TÀI CHÍNH - MARKETING",
+      "alias": "UFM",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/503622015-1650331824750-logoufm.png"
+    },
+    {
+      "id": 11,
+      "name": "ĐẠI HỌC QUỐC GIA HÀ NỘI",
+      "alias": "VNU",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/866522074-1604980770701-hltron1(1).png"
+    },
+    {
+      "id": 12,
+      "name": "ĐẠI HỌC VINH",
+      "alias": "VinhUni",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/506704871-1647931975956-dhvinh.png"
+    },
+    {
+      "id": 13,
+      "name": "HỌC VIỆN TÀI CHÍNH",
+      "alias": "AOF",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/722165884-1646280993845-hocvientaichinh.png"
+    },
+    {
+      "id": 14,
+      "name": "HỌC VIỆN NGÂN HÀNG",
+      "alias": "BA",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/26823064-1647858464142-hocviennganhang.png"
+    },
+    {
+      "id": 15,
+      "name": "ĐẠI HỌC CÔNG ĐOÀN",
+      "alias": "TUU",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/987350358-1647931958351-daihoccongdoan.png"
+    },
+    {
+      "id": 16,
+      "name": "ĐẠI HỌC BÁCH KHOA TP.HCM",
+      "alias": "HCMUT",
+      "courses": "0",
+      "image": "https://storage.googleapis.com/onthisinhvien.appspot.com/images/636939926-1650331677139-logohcmut.jpg"
+    }
+  ],
+  "feedbacks": [
+    {
+      "name": "hồ huệ",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F479012615-1649216916801-hohue.jpg&w=1920&q=75"
+    },
+    {
+      "name": "minh phương",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F948541500-1649217432673-tranminhphuong.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    },
+    {
+      "name": "hồ huệ",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F479012615-1649216916801-hohue.jpg&w=1920&q=75"
+    },
+    {
+      "name": "minh phương",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F948541500-1649217432673-tranminhphuong.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    },
+    {
+      "name": "hồ huệ",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F479012615-1649216916801-hohue.jpg&w=1920&q=75"
+    },
+    {
+      "name": "minh phương",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F948541500-1649217432673-tranminhphuong.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    },
+    {
+      "name": "trần vân",
+      "image": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F774990213-1649217469173-tranvan.jpg&w=1920&q=75"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Ôn thi sinh viên: So sánh chứng chỉ tin học ICDL và MOS",
+      "slug": "on-thi-icdl-va-mos",
+      "category": "Tin tức nổi bật",
+      "thumbnail": "https://onthisinhvien.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fonthisinhvien.appspot.com%2Fimages%2F635949756-1754212027605-thietkechuacoten.png&w=1920&q=90",
+      "author": "Admin",
+      "date": "2025-08-13",
+      "views": 28,
+      "description": "So sánh sự khác nhau giữa ICDL và MOS về độ khó, lệ phí, hình thức thi và lợi ích...",
+      "content": ""
+    },
+    {
+      "id": 2,
+      "title": "Cách ôn thi IELTS từ cơ bản đến nâng cao cho người mới bắt đầu",
+      "slug": "on-thi-ielts",
+      "category": "Tin tức nổi bật",
+      "thumbnail": "https://link-to-image/on-thi-ielts.jpg",
+      "author": "Admin",
+      "date": "2025-08-12",
+      "views": 12,
+      "description": "Hướng dẫn cách ôn thi IELTS từ A-Z cho người mới bắt đầu...",
+      "content": "<p>Hướng dẫn lộ trình 3 giai đoạn chi tiết: từ cơ bản đến nâng cao...</p>"
+    }
+  ]
+}

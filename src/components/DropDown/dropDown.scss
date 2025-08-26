@@ -1,0 +1,64 @@
+.dropdownUser{
+    &__dropdown{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 250px;
+    overflow: hidden;
+    font-weight: 700;
+    }
+    &__header{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-image: url("https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/05/anh-mau-xanh-duong-42.jpg");
+        &--image{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+            border: 1px solid white;
+        img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        }
+        &--name{
+            color: white;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    &__body{
+        ul{
+            list-style-type: none;
+            padding: 0;
+            li{
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                a{
+                    &:hover{
+                        color: var(--color-1);
+                        text-decoration: underline;
+                    }
+                }
+            }
+            li:last-child{
+                border-bottom: none;
+            }
+        }
+    }
+    &__image{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
+}
